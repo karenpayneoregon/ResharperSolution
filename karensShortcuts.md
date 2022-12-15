@@ -1,4 +1,4 @@
-
+Karen does not use the standard keyboard shortcuts so the following are used instead
 
 | Description        |   Shortcut    | Keyboard Reference
 |:------------- |:-------------|:-------------|

@@ -2,7 +2,7 @@
 
 ReSharper `R#` is a Visual Studio extension which can assist with
 
-- Learning what you don’t know but should know
+- Learning what you don't know but should know
 - An extensive list of code [refactors](https://www.jetbrains.com/resharper/features/code_refactoring.html)
 - Coding [assistance](https://www.jetbrains.com/resharper/features/coding_assistance.html)
 - Quick fixes to eliminate errors and bad code
@@ -59,7 +59,7 @@ See also [docs](https://www.jetbrains.com/help/resharper/Introduction__Troublesh
 
 `ReSharper_ShowTodoExplorer`
 
-- R# provides an easy way to track tasks and technical debt in your code — code items (comments, string literals, or identifiers) matching a specific pattern can be easily located in the editor as well as in the whole solution using the To-do Explorer window.
+- R# provides an easy way to track tasks and technical debt in your code,  code items (comments, string literals, or identifiers) matching a specific pattern can be easily located in the editor as well as in the whole solution using the To-do Explorer window.
 - To navigate from code to the task window see second image below
 
 
