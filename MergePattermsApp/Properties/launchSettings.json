@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MergePattermsApp": {
+      "commandName": "Project",
+      "commandLineArgs": "-h -a"
+    }
+  }
+}

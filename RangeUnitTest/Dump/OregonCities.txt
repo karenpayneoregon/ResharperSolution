@@ -1,0 +1,374 @@
+﻿  Id                     Name     Start   End
+   1            Adair Village,    0       ^372
+   2                    Adams,    1       ^371
+   3                   Adrian,    2       ^370
+   4                   Albany,    3       ^369
+   5                    Aloha,    4       ^368
+   6                   Alpine,    5       ^367
+   7                    Alsea,    6       ^366
+   8                 Altamont,    7       ^365
+   9                    Amity,    8       ^364
+  10                    Annex,    9       ^363
+  11                 Antelope,   10       ^362
+  12                Arlington,   11       ^361
+  13                  Ashland,   12       ^360
+  14                  Astoria,   13       ^359
+  15                   Athena,   14       ^358
+  16                Aumsville,   15       ^357
+  17                   Aurora,   16       ^356
+  18               Baker City,   17       ^355
+  19                   Bandon,   18       ^354
+  20                    Banks,   19       ^353
+  21                   Barlow,   20       ^352
+  22                  Barview,   21       ^351
+  23                 Bay City,   22       ^350
+  24          Bayside Gardens,   23       ^349
+  25                   Beaver,   24       ^348
+  26              Beavercreek,   25       ^347
+  27                Beaverton,   26       ^346
+  28             Bellfountain,   27       ^345
+  29                     Bend,   28       ^344
+  30                  Bethany,   29       ^343
+  31        Black Butte Ranch,   30       ^342
+  32                 Blodgett,   31       ^341
+  33                 Boardman,   32       ^340
+  34                  Bonanza,   33       ^339
+  35                   Brogan,   34       ^338
+  36                Brookings,   35       ^337
+  37                   Brooks,   36       ^336
+  38              Brownsville,   37       ^335
+  39            Bull Mountain,   38       ^334
+  40              Bunker Hill,   39       ^333
+  41                    Burns,   40       ^332
+  42              Butte Falls,   41       ^331
+  43               Butteville,   42       ^330
+  44             Camp Sherman,   43       ^329
+  45                    Canby,   44       ^328
+  46             Cannon Beach,   45       ^327
+  47              Canyon City,   46       ^326
+  48              Canyonville,   47       ^325
+  49              Cape Meares,   48       ^324
+  50                  Carlton,   49       ^323
+  51            Cascade Locks,   50       ^322
+  52                 Cascadia,   51       ^321
+  53            Cave Junction,   52       ^320
+  54                   Cayuse,   53       ^319
+  55              Cedar Hills,   54       ^318
+  56               Cedar Mill,   55       ^317
+  57            Central Point,   56       ^316
+  58                Chenoweth,   57       ^315
+  59                Chiloquin,   58       ^314
+  60               Clatskanie,   59       ^313
+  61               Cloverdale,   60       ^312
+  62                   Coburg,   61       ^311
+  63            Columbia City,   62       ^310
+  64                   Condon,   63       ^309
+  65                 Coos Bay,   64       ^308
+  66                 Coquille,   65       ^307
+  67                Cornelius,   66       ^306
+  68                Corvallis,   67       ^305
+  69            Cottage Grove,   68       ^304
+  70                     Cove,   69       ^303
+  71                 Crabtree,   70       ^302
+  72                    Crane,   71       ^301
+  73           Crawfordsville,   72       ^300
+  74                 Creswell,   73       ^299
+  75      Crooked River Ranch,   74       ^298
+  76                   Culver,   75       ^297
+  77                   Dallas,   76       ^296
+  78                 Damascus,   77       ^295
+  79               Days Creek,   78       ^294
+  80                   Dayton,   79       ^293
+  81                 Dayville,   80       ^292
+  82              Deer Island,   81       ^291
+  83                Depoe Bay,   82       ^290
+  84    Deschutes River Woods,   83       ^289
+  85                  Detroit,   84       ^288
+  86                  Dillard,   85       ^287
+  87                   Donald,   86       ^286
+  88                    Drain,   87       ^285
+  89                    Dufur,   88       ^284
+  90                   Dundee,   89       ^283
+  91               Dunes City,   90       ^282
+  92                   Durham,   91       ^281
+  93              Eagle Crest,   92       ^280
+  94              Eagle Point,   93       ^279
+  95                     Echo,   94       ^278
+  96                    Elgin,   95       ^277
+  97                   Elkton,   96       ^276
+  98               Enterprise,   97       ^275
+  99                 Estacada,   98       ^274
+ 100                   Eugene,   99       ^273
+ 101                Fair Oaks,  100       ^272
+ 102                 Fairview,  101       ^271
+ 103               Falls City,  102       ^270
+ 104                 Florence,  103       ^269
+ 105              Foots Creek,  104       ^268
+ 106             Forest Grove,  105       ^267
+ 107                Fort Hill,  106       ^266
+ 108                   Fossil,  107       ^265
+ 109             Four Corners,  108       ^264
+ 110     Garden Home-Whitford,  109       ^263
+ 111                 Gardiner,  110       ^262
+ 112                Garibaldi,  111       ^261
+ 113                   Gaston,  112       ^260
+ 114                    Gates,  113       ^259
+ 115                 Gearhart,  114       ^258
+ 116                  Gervais,  115       ^257
+ 117                Gladstone,  116       ^256
+ 118                  Glasgow,  117       ^255
+ 119                 Glendale,  118       ^254
+ 120                    Glide,  119       ^253
+ 121               Gold Beach,  120       ^252
+ 122                Gold Hill,  121       ^251
+ 123             Gopher Flats,  122       ^250
+ 124          Government Camp,  123       ^249
+ 125              Grand Ronde,  124       ^248
+ 126                  Granite,  125       ^247
+ 127              Grants Pass,  126       ^246
+ 128             Grass Valley,  127       ^245
+ 129                    Green,  128       ^244
+ 130                  Gresham,  129       ^243
+ 131                   Haines,  130       ^242
+ 132                  Halfway,  131       ^241
+ 133                   Halsey,  132       ^240
+ 134             Happy Valley,  133       ^239
+ 135                   Harbor,  134       ^238
+ 136                   Harper,  135       ^237
+ 137               Harrisburg,  136       ^236
+ 138               Hayesville,  137       ^235
+ 139                     Hebo,  138       ^234
+ 140                    Helix,  139       ^233
+ 141                  Heppner,  140       ^232
+ 142                Hermiston,  141       ^231
+ 143                Hillsboro,  142       ^230
+ 144                    Hines,  143       ^229
+ 145                   Holley,  144       ^228
+ 146               Hood River,  145       ^227
+ 147                  Hubbard,  146       ^226
+ 148               Huntington,  147       ^225
+ 149                   Idanha,  148       ^224
+ 150                 Idaville,  149       ^223
+ 151                   Imbler,  150       ^222
+ 152             Independence,  151       ^221
+ 153                     Ione,  152       ^220
+ 154                  Irrigon,  153       ^219
+ 155              Island City,  154       ^218
+ 156             Jacksonville,  155       ^217
+ 157          Jeffers Gardens,  156       ^216
+ 158                Jefferson,  157       ^215
+ 159           Jennings Lodge,  158       ^214
+ 160                 John Day,  159       ^213
+ 161             Johnson City,  160       ^212
+ 162            Jordan Valley,  161       ^211
+ 163                   Joseph,  162       ^210
+ 164            Junction City,  163       ^209
+ 165                  Juntura,  164       ^208
+ 166                   Keizer,  165       ^207
+ 167                    Kerby,  166       ^206
+ 168                King City,  167       ^205
+ 169             Kings Valley,  168       ^204
+ 170              Kirkpatrick,  169       ^203
+ 171            Klamath Falls,  170       ^202
+ 172                La Grande,  171       ^201
+ 173                  La Pine,  172       ^200
+ 174           Labish Village,  173       ^199
+ 175                   Lacomb,  174       ^198
+ 176                Lafayette,  175       ^197
+ 177              Lake Oswego,  176       ^196
+ 178                 Lakeside,  177       ^195
+ 179                 Lakeview,  178       ^194
+ 180                 Langlois,  179       ^193
+ 181                  Lebanon,  180       ^192
+ 182                Lexington,  181       ^191
+ 183            Lincoln Beach,  182       ^190
+ 184             Lincoln City,  183       ^189
+ 185                 Lonerock,  184       ^188
+ 186               Long Creek,  185       ^187
+ 187             Lookingglass,  186       ^186
+ 188                  Lostine,  187       ^185
+ 189                   Lowell,  188       ^184
+ 190                    Lyons,  189       ^183
+ 191                   Madras,  190       ^182
+ 192                    Malin,  191       ^181
+ 193                Manzanita,  192       ^180
+ 194                   Marion,  193       ^179
+ 195                   Maupin,  194       ^178
+ 196             Maywood Park,  195       ^177
+ 197              McMinnville,  196       ^176
+ 198                  Medford,  197       ^175
+ 199                   Mehama,  198       ^174
+ 200                  Melrose,  199       ^173
+ 201                   Merlin,  200       ^172
+ 202                  Merrill,  201       ^171
+ 203                 Metolius,  202       ^170
+ 204                  Metzger,  203       ^169
+ 205                Mill City,  204       ^168
+ 206              Millersburg,  205       ^167
+ 207         Milton-Freewater,  206       ^166
+ 208                Milwaukie,  207       ^165
+ 209                  Mission,  208       ^164
+ 210                 Mitchell,  209       ^163
+ 211                  Molalla,  210       ^162
+ 212                 Monmouth,  211       ^161
+ 213                   Monroe,  212       ^160
+ 214                 Monument,  213       ^159
+ 215                     Moro,  214       ^158
+ 216                   Mosier,  215       ^157
+ 217              Mount Angel,  216       ^156
+ 218               Mount Hood,  217       ^155
+ 219       Mount Hood Village,  218       ^154
+ 220             Mount Vernon,  219       ^153
+ 221                   Mulino,  220       ^152
+ 222             Myrtle Creek,  221       ^151
+ 223             Myrtle Point,  222       ^150
+ 224               Neahkahnie,  223       ^149
+ 225                  Nehalem,  224       ^148
+ 226             Nesika Beach,  225       ^147
+ 227                 Neskowin,  226       ^146
+ 228                  Netarts,  227       ^145
+ 229                 New Hope,  228       ^144
+ 230           New Pine Creek,  229       ^143
+ 231                  Newberg,  230       ^142
+ 232                  Newport,  231       ^141
+ 233               North Bend,  232       ^140
+ 234             North Plains,  233       ^139
+ 235             North Powder,  234       ^138
+ 236                    Nyssa,  235       ^137
+ 237                Oak Grove,  236       ^136
+ 238                Oak Hills,  237       ^135
+ 239                  Oakland,  238       ^134
+ 240                 Oakridge,  239       ^133
+ 241                 Oatfield,  240       ^132
+ 242                  O'Brien,  241       ^131
+ 243                Oceanside,  242       ^130
+ 244                    Odell,  243       ^129
+ 245                  Ontario,  244       ^128
+ 246              Oregon City,  245       ^127
+ 247             Pacific City,  246       ^126
+ 248                  Paisley,  247       ^125
+ 249                 Parkdale,  248       ^124
+ 250                Pendleton,  249       ^123
+ 251                   Peoria,  250       ^122
+ 252                Philomath,  251       ^121
+ 253                  Phoenix,  252       ^120
+ 254               Pilot Rock,  253       ^119
+ 255               Pine Grove,  254       ^118
+ 256              Pine Hollow,  255       ^117
+ 257             Pistol River,  256       ^116
+ 258                    Plush,  257       ^115
+ 259              Port Orford,  258       ^114
+ 260                 Portland,  259       ^113
+ 261                   Powers,  260       ^112
+ 262             Prairie City,  261       ^111
+ 263                 Prescott,  262       ^110
+ 264               Prineville,  263       ^109
+ 265                Pronghorn,  264       ^108
+ 266                 Prospect,  265       ^107
+ 267                  Rainier,  266       ^106
+ 268            Raleigh Hills,  267       ^105
+ 269                  Redmond,  268       ^104
+ 270                  Redwood,  269       ^103
+ 271                Reedsport,  270       ^102
+ 272                 Richland,  271       ^101
+ 273                   Riddle,  272       ^100
+ 274               Rivergrove,  273        ^99
+ 275                Riverside,  274        ^98
+ 276           Rockaway Beach,  275        ^97
+ 277                Rockcreek,  276        ^96
+ 278              Rogue River,  277        ^95
+ 279               Rose Lodge,  278        ^94
+ 280                 Roseburg,  279        ^93
+ 281           Roseburg North,  280        ^92
+ 282                   Rowena,  281        ^91
+ 283                     Ruch,  282        ^90
+ 284                    Rufus,  283        ^89
+ 285                    Salem,  284        ^88
+ 286                    Sandy,  285        ^87
+ 287                Scappoose,  286        ^86
+ 288                     Scio,  287        ^85
+ 289             Scotts Mills,  288        ^84
+ 290                  Seaside,  289        ^83
+ 291                    Selma,  290        ^82
+ 292                   Seneca,  291        ^81
+ 293         Seventh Mountain,  292        ^80
+ 294               Shady Cove,  293        ^79
+ 295                  Shaniko,  294        ^78
+ 296                    Shedd,  295        ^77
+ 297                 Sheridan,  296        ^76
+ 298                 Sherwood,  297        ^75
+ 299                   Siletz,  298        ^74
+ 300              Silver Lake,  299        ^73
+ 301                Silverton,  300        ^72
+ 302                  Sisters,  301        ^71
+ 303                Sodaville,  302        ^70
+ 304            South Lebanon,  303        ^69
+ 305                    Spray,  304        ^68
+ 306              Springfield,  305        ^67
+ 307               St. Helens,  306        ^66
+ 308                 St. Paul,  307        ^65
+ 309                 Stafford,  308        ^64
+ 310                Stanfield,  309        ^63
+ 311                  Stayton,  310        ^62
+ 312                Sublimity,  311        ^61
+ 313              Summerville,  312        ^60
+ 314                   Summit,  313        ^59
+ 315                  Sumpter,  314        ^58
+ 316                 Sunriver,  315        ^57
+ 317                Sutherlin,  316        ^56
+ 318               Sweet Home,  317        ^55
+ 319                  Takilma,  318        ^54
+ 320                   Talent,  319        ^53
+ 321                  Tangent,  320        ^52
+ 322               Terrebonne,  321        ^51
+ 323                 Tetherow,  322        ^50
+ 324               The Dalles,  323        ^49
+ 325             Three Rivers,  324        ^48
+ 326                   Tigard,  325        ^47
+ 327                Tillamook,  326        ^46
+ 328                   Toledo,  327        ^45
+ 329                    Trail,  328        ^44
+ 330                 Tri-City,  329        ^43
+ 331                Troutdale,  330        ^42
+ 332                 Tualatin,  331        ^41
+ 333                   Tumalo,  332        ^40
+ 334                   Turner,  333        ^39
+ 335                 Tutuilla,  334        ^38
+ 336              Tygh Valley,  335        ^37
+ 337                    Ukiah,  336        ^36
+ 338                  Umapine,  337        ^35
+ 339                 Umatilla,  338        ^34
+ 340                    Union,  339        ^33
+ 341                    Unity,  340        ^32
+ 342                     Vale,  341        ^31
+ 343                   Veneta,  342        ^30
+ 344                 Vernonia,  343        ^29
+ 345                 Waldport,  344        ^28
+ 346                  Wallowa,  345        ^27
+ 347             Wallowa Lake,  346        ^26
+ 348                    Wamic,  347        ^25
+ 349             Warm Springs,  348        ^24
+ 350                   Warren,  349        ^23
+ 351                Warrenton,  350        ^22
+ 352                    Wasco,  351        ^21
+ 353                 Waterloo,  352        ^20
+ 354        West Haven-Sylvan,  353        ^19
+ 355                West Linn,  354        ^18
+ 356                West Scio,  355        ^17
+ 357               West Slope,  356        ^16
+ 358                  Westfir,  357        ^15
+ 359                   Weston,  358        ^14
+ 360                 Westport,  359        ^13
+ 361                  Wheeler,  360        ^12
+ 362               White City,  361        ^11
+ 363                Willamina,  362        ^10
+ 364                 Williams,  363         ^9
+ 365              Wilsonville,  364         ^8
+ 366                    Wimer,  365         ^7
+ 367           Winchester Bay,  366         ^6
+ 368                  Winston,  367         ^5
+ 369             Wood Village,  368         ^4
+ 370                 Woodburn,  369         ^3
+ 371                  Yachats,  370         ^2
+ 372                  Yamhill,  371         ^1
+ 373                 Yoncalla,  372         ^0
