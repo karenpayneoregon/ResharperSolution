@@ -44,8 +44,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractInterfaceApp", "Extr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingStatementsDeclarations", "UsingStatementsDeclarations\UsingStatementsDeclarations.csproj", "{E3B90C72-1719-49B9-A3C8-7315BD5D5CB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractSuperClassApp", "ExtractSuperClassApp\ExtractSuperClassApp.csproj", "{00C0AB79-FB2C-45D5-80B7-D76A5B3D2601}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switches", "Switches\Switches.csproj", "{445A5CD9-48E4-4669-8CD8-EB2D7767C054}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetWeekendDatesCorrectlyAppCore7", "GetWeekendDatesCorrectlyAppCore7\GetWeekendDatesCorrectlyAppCore7.csproj", "{418FB984-62C8-4C5C-9014-D0C4F3BE9326}"
@@ -114,10 +112,6 @@ Global
 		{E3B90C72-1719-49B9-A3C8-7315BD5D5CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3B90C72-1719-49B9-A3C8-7315BD5D5CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3B90C72-1719-49B9-A3C8-7315BD5D5CB7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{00C0AB79-FB2C-45D5-80B7-D76A5B3D2601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{00C0AB79-FB2C-45D5-80B7-D76A5B3D2601}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{00C0AB79-FB2C-45D5-80B7-D76A5B3D2601}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{00C0AB79-FB2C-45D5-80B7-D76A5B3D2601}.Release|Any CPU.Build.0 = Release|Any CPU
 		{445A5CD9-48E4-4669-8CD8-EB2D7767C054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{445A5CD9-48E4-4669-8CD8-EB2D7767C054}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{445A5CD9-48E4-4669-8CD8-EB2D7767C054}.Release|Any CPU.ActiveCfg = Release|Any CPU

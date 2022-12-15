@@ -22,7 +22,7 @@ internal partial class Program
          * that the variables are like declaring any variable thus unique names
          * Teaching merge patterns
          */
-        if (args.Length == 2 && args[0] == "-h" && args[1] is var topic)
+        if (args is ["-h", _] && args[1] is var topic)
         {
             AnsiConsole.MarkupLine($"[yellow]{topic}[/]");
         }
