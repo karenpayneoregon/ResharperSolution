@@ -1,7 +1,9 @@
-﻿using FilteredInclude.Classes;
+﻿using System.Xml;
+using FilteredInclude.Classes;
 using FilteredInclude.Data;
 using FilteredInclude.Models;
 using FilteredIncludeUnitTestProject.Base;
+using FilteredIncludeUnitTestProject.Classes;
 using Microsoft.EntityFrameworkCore;
 using NFluent;
 
@@ -24,8 +26,7 @@ public partial class MainTest : TestBase
     {
 
         using var context = new NorthWindContext(false,ConnectionOption.mssqllocaldb);
-
-
+        
         /*
          * Returns three customers 👍
          * Returns incorrect order count 👎
@@ -41,6 +42,9 @@ public partial class MainTest : TestBase
 
         Check.That(completelyWrong.Count).Equals(3);
 
+
+        Console.WriteLine(string.Join(" ", completelyWrong.Select(x => x.Orders.Count)));
+
         // This is best done with Global Query Filters
         List<IEnumerable<Orders>> filteredOnIsDeletedCustomers = context.Customers
             .Where(customer => customer.Orders.Any(order => order.IsDeleted.Value))
@@ -53,6 +57,24 @@ public partial class MainTest : TestBase
         Console.WriteLine($"The following is correctly done ✔: count {filteredOnIsDeletedCustomers.Count}");
         Check.That(filteredOnIsDeletedCustomers.Count).Equals(3);
 
+        Console.WriteLine();
+
+        List<IGrouping<int?, Orders>> flattenedList = filteredOnIsDeletedCustomers
+            .SelectMany(eo => eo)
+            .GroupBy(o => o.CustomerIdentifier)
+            .ToList();
+
+        Console.WriteLine();
+        Check.That(flattenedList.Count).Equals(3);
+
+        foreach (var item in flattenedList)
+        {
+            var current = item.FirstOrDefault();
+            if (current is not null)
+            {
+                Console.WriteLine($"{item.Key,-8}{current.OrderDate,-15:d}{current.CustomerIdentifier, -4}{current.OrderDetails.Count}");
+            }
+        }
 
     }
 
