@@ -39,6 +39,7 @@ public partial class MainTest : TestBase
             .ThenInclude(orderDetails => orderDetails.Product)
             .ToList();
 
+        File.WriteAllText("Result1.txt", ObjectDumper.Dump(completelyWrong));
 
         Check.That(completelyWrong.Count).Equals(3);
 
@@ -46,7 +47,7 @@ public partial class MainTest : TestBase
         Console.WriteLine(string.Join(" ", completelyWrong.Select(x => x.Orders.Count)));
 
         // This is best done with Global Query Filters
-        List<IEnumerable<Orders>> filteredOnIsDeletedCustomers = context.Customers
+        List<IEnumerable<Orders>> filteredRight = context.Customers
             .Where(customer => customer.Orders.Any(order => order.IsDeleted.Value))
             .Include(customer => customer.Orders.Where(order => order.IsDeleted.Value == true))
             .ThenInclude(order => order.OrderDetails)
@@ -54,12 +55,13 @@ public partial class MainTest : TestBase
             .Select(customer => customer.Orders.Where(order => order.IsDeleted.Value))
             .ToList();
 
-        Console.WriteLine($"The following is correctly done ✔: count {filteredOnIsDeletedCustomers.Count}");
-        Check.That(filteredOnIsDeletedCustomers.Count).Equals(3);
+        File.WriteAllText("Result2.txt", ObjectDumper.Dump(filteredRight));
+        Console.WriteLine($"The following is correctly done ✔: count {filteredRight.Count}");
+        Check.That(filteredRight.Count).Equals(3);
 
         Console.WriteLine();
 
-        List<IGrouping<int?, Orders>> flattenedList = filteredOnIsDeletedCustomers
+        List<IGrouping<int?, Orders>> flattenedList = filteredRight
             .SelectMany(eo => eo)
             .GroupBy(o => o.CustomerIdentifier)
             .ToList();

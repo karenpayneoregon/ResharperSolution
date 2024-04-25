@@ -40,19 +40,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Setters", "Setters\Setters.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RawStringLiteralConversion", "RawStringLiteralConversion\RawStringLiteralConversion.csproj", "{B2D15880-56DA-46B6-A8BA-D3310E694250}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractInterfaceApp", "ExtractInterfaceApp\ExtractInterfaceApp.csproj", "{3002FD4F-1735-44A3-9A9F-1CEF3DF0F102}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtractInterfaceApp", "ExtractInterfaceApp\ExtractInterfaceApp.csproj", "{3002FD4F-1735-44A3-9A9F-1CEF3DF0F102}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingStatementsDeclarations", "UsingStatementsDeclarations\UsingStatementsDeclarations.csproj", "{E3B90C72-1719-49B9-A3C8-7315BD5D5CB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingStatementsDeclarations", "UsingStatementsDeclarations\UsingStatementsDeclarations.csproj", "{E3B90C72-1719-49B9-A3C8-7315BD5D5CB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switches", "Switches\Switches.csproj", "{445A5CD9-48E4-4669-8CD8-EB2D7767C054}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Switches", "Switches\Switches.csproj", "{445A5CD9-48E4-4669-8CD8-EB2D7767C054}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetWeekendDatesCorrectlyAppCore7", "GetWeekendDatesCorrectlyAppCore7\GetWeekendDatesCorrectlyAppCore7.csproj", "{418FB984-62C8-4C5C-9014-D0C4F3BE9326}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergePattermsApp", "MergePattermsApp\MergePattermsApp.csproj", "{DFF4E51E-CEAE-4067-AFBB-0EEA27E4544B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergePattermsApp", "MergePattermsApp\MergePattermsApp.csproj", "{DFF4E51E-CEAE-4067-AFBB-0EEA27E4544B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperClassApp", "SuperClassApp\SuperClassApp.csproj", "{32ADA191-D691-43D6-8B34-654D59D3BB16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperClassApp", "SuperClassApp\SuperClassApp.csproj", "{32ADA191-D691-43D6-8B34-654D59D3BB16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToStringApp", "ToStringApp\ToStringApp.csproj", "{4F61D119-BEE8-4C7B-92CA-2113498D86C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToStringApp", "ToStringApp\ToStringApp.csproj", "{4F61D119-BEE8-4C7B-92CA-2113498D86C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlAddColumnWithValuesApp", "SqlAddColumnWithValuesApp\SqlAddColumnWithValuesApp.csproj", "{1CDA339A-18BC-4A92-A4D4-6688B9D93468}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -132,6 +134,10 @@ Global
 		{4F61D119-BEE8-4C7B-92CA-2113498D86C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F61D119-BEE8-4C7B-92CA-2113498D86C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F61D119-BEE8-4C7B-92CA-2113498D86C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CDA339A-18BC-4A92-A4D4-6688B9D93468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CDA339A-18BC-4A92-A4D4-6688B9D93468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CDA339A-18BC-4A92-A4D4-6688B9D93468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CDA339A-18BC-4A92-A4D4-6688B9D93468}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

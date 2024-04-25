@@ -145,7 +145,7 @@ public partial class MainTest : TestBase
         var (startIndex, endIndex) = contacts.BetweenContacts(firstContact, lastContact);
 
         var contactsBetweenTwo = contactsArray[startIndex..endIndex];
-            
+        
         Assert.IsTrue(
             contactsBetweenTwo
                 .SequenceEqual(
@@ -322,7 +322,7 @@ public partial class MainTest : TestBase
     }
 
     /// <summary>
-    /// Get cities between two cities were the indexes are hard coded e.g. [4..^360]
+    /// Get cities between two cities where the indexes are hard coded e.g. [4..^360]
     /// </summary>
     [TestMethod]
     [TestTraits(Trait.Cities)]
